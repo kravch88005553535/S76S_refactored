@@ -1,0 +1,10 @@
+#ifndef __UART_CONSTANTS_H__
+#define __UART_CONSTANTS_H__
+
+#include "graphics_constants.h"
+
+#define UARTBUF_X_ARRAY_SIZE    (BAR_GRAPH_HEIGHT+X_AXIS_OFFSET+1)
+#define UARTBUF_Y_ARRAY_SIZE    (BAR_GRAPH_NUM+Y_AXIS_OFFSET+END_SYMBOLS+1)
+
+
+#endif //__UART_CONSTANTS_H__
